@@ -1,0 +1,216 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MttoBD2
+</name>
+</assembly>
+<members>
+<member name="T:MttoBD2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MttoBD2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MttoBD2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.alumnosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.asignaturasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.matriculaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.alumnosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.asignaturasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.matriculaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.alumnosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.asignaturasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSet.matriculaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSetTableAdapters.alumnosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSetTableAdapters.asignaturasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSetTableAdapters.matriculaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MttoBD2.escuelaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MttoBD2.escuelaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MttoBD2.escuelaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.UpdateAll(MttoBD2.escuelaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MttoBD2.escuelaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet.alumnosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet.asignaturasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet.alumnosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet.asignaturasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet.alumnosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSet.asignaturasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSetTableAdapters.alumnosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSetTableAdapters.asignaturasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MttoBD2.ods_dbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MttoBD2.ods_dbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MttoBD2.ods_dbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.UpdateAll(MttoBD2.ods_dbDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MttoBD2.ods_dbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
